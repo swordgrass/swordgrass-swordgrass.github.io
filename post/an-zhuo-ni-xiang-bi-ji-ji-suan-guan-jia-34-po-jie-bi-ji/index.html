@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>安卓逆向学习笔记-学习计算管家3.4破解 | 个人博客</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://swordgrass.github.io/favicon.ico?v=1587459157808">
+<link rel="stylesheet" href="https://swordgrass.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="跟大佬学习一下，吾爱破解安卓逆向入门教程（五）---Smali实战分析
+
+
+首先获取信息，使用Android killer进行反编译，搜索“授权”
+
+找到“授权成功，您已成为付费用”，前有“authorize_success”，搜索其，
+
+..." />
+    <meta name="keywords" content="安卓逆向" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://swordgrass.github.io">
+        <img src="https://swordgrass.github.io/images/avatar.png?v=1587459157808" class="site-logo">
+        <h1 class="site-title">个人博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/swordgrass" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      业精于勤，荒于嬉
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/swordgrass" target="_blank">SwordGrass</a> | <a class="rss" href="https://swordgrass.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">安卓逆向学习笔记-学习计算管家3.4破解</h2>
+            <div class="post-date">2020-04-21</div>
+            
+            <div class="post-content" v-pre>
+              <p>跟大佬学习一下，<a href="https://www.52pojie.cn/thread-397987-1-1.html">吾爱破解安卓逆向入门教程（五）---Smali实战分析</a></p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://swordgrass.github.io/post-images/1587454311533.png" alt="" loading="lazy"></figure>
+<p>首先获取信息，使用Android killer进行反编译，搜索“授权”</p>
+<figure data-type="image" tabindex="2"><img src="https://swordgrass.github.io/post-images/1587454330890.png" alt="" loading="lazy"></figure>
+<p>找到“授权成功，您已成为付费用”，前有“authorize_success”，搜索其，</p>
+<figure data-type="image" tabindex="3"><img src="https://swordgrass.github.io/post-images/1587454345120.png" alt="" loading="lazy"></figure>
+<p>找到一个id”0x7f080100”,继续搜索，然后我搜索不到，有些文件缺失…..(ˉ▽ˉ；)….</p>
+<p>换个apkIDE（改之理）仍旧如此，事实证明，我……………………太菜了….</p>
+<figure data-type="image" tabindex="4"><img src="https://swordgrass.github.io/post-images/1587454352523.png" alt="" loading="lazy"></figure>
+<p>smali目录下就只有这个，反编译不成功？？?</p>
+<p><strong>不死心1</strong></p>
+<p>重新下了n个计算管家3.4找到了该有的东西…，但是被破解过的。。…</p>
+<p>继续。。。</p>
+<p>。。。就tm离谱，网上全是破解版。。。</p>
+<p>。。。。。。</p>
+<p><strong>不死心2</strong></p>
+<p>找到官网<a href="http://ideacalc.com/index_cn.php">http://ideacalc.com/index_cn.php</a></p>
+<p>官网没有历史版本。。</p>
+<p>找到友情链接：豌豆荚<a href="https://www.wandoujia.com/apps/281075/history_v31">https://www.wandoujia.com/apps/281075/history_v31</a></p>
+<p>找到历史版</p>
+<p>安装3.4，安卓运行。。。程序崩溃。。重装。还是崩溃。。</p>
+<p>安装3.3，安卓运行成功，反编译、smali仍旧只有一文件。。。</p>
+<p>经过多次反复证明，我菜得不能再菜。。。</p>
+<p><strong>不死心3</strong></p>
+<p>这也许就是壳吧，我也不知道。。。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://swordgrass.github.io/tag/M2FNItPhR/" class="tag">
+                    安卓逆向
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://swordgrass.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'Iv1.1af4c409b624a961',
+        clientSecret: 'dd279b6e6fcf4dadb38a5ac0c98290258ecb7b66',
+        repo: 'blogtalk',
+        owner: 'swordgrass',
+        admin: ['swordgrass'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
