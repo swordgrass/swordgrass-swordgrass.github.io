@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>安卓逆向学习笔记-学习计算管家3.4破解 | 个人博客</title>
+<title>Gridea+Gitalk评论功能 | 个人博客</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -24,15 +24,19 @@
 
 
 
-    <meta name="description" content="跟大佬学习一下，吾爱破解安卓逆向入门教程（五）---Smali实战分析
+    <meta name="description" content="gitalk 它是一个基于 Github Issue 和 Preact
+开发的评论插件
+
+Gitalk中文使用说明
+需要 GitHub Application，如果没有
+点击这里申请
 
 
-首先获取信息，使用Android killer进行反编译，搜索“授权”
+这两个记下来
+然后创建一个仓库来装评论数据？
 
-找到“授权成功，您已成为付费用”，前有“authorize_success”，搜索其，
-
-..." />
-    <meta name="keywords" content="安卓逆向" />
+然后..." />
+    <meta name="keywords" content="博客" />
   </head>
   <body>
     <div id="app" class="main">
@@ -107,43 +111,38 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">安卓逆向学习笔记-学习计算管家3.4破解</h2>
+            <h2 class="post-title">Gridea+Gitalk评论功能</h2>
             <div class="post-date">2020-04-21</div>
             
             <div class="post-content" v-pre>
-              <p>跟大佬学习一下，<a href="https://www.52pojie.cn/thread-397987-1-1.html">吾爱破解安卓逆向入门教程（五）---Smali实战分析</a></p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="http://l80cmk.coding-pages.com/post-images/1587454311533.png" alt="" loading="lazy"></figure>
-<p>首先获取信息，使用Android killer进行反编译，搜索“授权”</p>
-<figure data-type="image" tabindex="2"><img src="http://l80cmk.coding-pages.com/post-images/1587454330890.png" alt="" loading="lazy"></figure>
-<p>找到“授权成功，您已成为付费用”，前有“authorize_success”，搜索其，</p>
-<figure data-type="image" tabindex="3"><img src="http://l80cmk.coding-pages.com/post-images/1587454345120.png" alt="" loading="lazy"></figure>
-<p>找到一个id”0x7f080100”,继续搜索，然后我搜索不到，有些文件缺失…..(ˉ▽ˉ；)….</p>
-<p>换个apkIDE（改之理）仍旧如此，事实证明，我……………………太菜了….</p>
-<figure data-type="image" tabindex="4"><img src="http://l80cmk.coding-pages.com/post-images/1587454352523.png" alt="" loading="lazy"></figure>
-<p>smali目录下就只有这个，反编译不成功？？?</p>
-<p><strong>不死心1</strong></p>
-<p>重新下了n个计算管家3.4找到了该有的东西…，但是被破解过的。。…</p>
-<p>继续。。。</p>
-<p>。。。就tm离谱，网上全是破解版。。。</p>
-<p>。。。。。。</p>
-<p><strong>不死心2</strong></p>
-<p>找到官网<a href="http://ideacalc.com/index_cn.php">http://ideacalc.com/index_cn.php</a></p>
-<p>官网没有历史版本。。</p>
-<p>找到友情链接：豌豆荚<a href="https://www.wandoujia.com/apps/281075/history_v31">https://www.wandoujia.com/apps/281075/history_v31</a></p>
-<p>找到历史版</p>
-<p>安装3.4，安卓运行。。。程序崩溃。。重装。还是崩溃。。</p>
-<p>安装3.3，安卓运行成功，反编译、smali仍旧只有一文件。。。</p>
-<p>经过多次反复证明，我菜得不能再菜。。。</p>
-<p><strong>不死心3</strong></p>
-<p>这也许就是壳吧，我也不知道。。。</p>
+              <p><a href="https://gitalk.github.io/">gitalk</a> 它是一个基于 Github Issue 和 Preact<br>
+开发的评论插件</p>
+<figure data-type="image" tabindex="1"><img src="http://l80cmk.coding-pages.com/post-images/1587469033731.png" alt="" loading="lazy"></figure>
+<p><a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk中文使用说明</a></p>
+<p>需要 <strong>GitHub Application</strong>，如果没有<br>
+<a href="https://github.com/settings/applications/new">点击这里申请</a></p>
+<figure data-type="image" tabindex="2"><img src="http://l80cmk.coding-pages.com/post-images/1587469041524.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="http://l80cmk.coding-pages.com/post-images/1587469050350.png" alt="" loading="lazy"></figure>
+<p>这两个记下来</p>
+<p>然后<a href="https://github.com/new">创建一个仓库</a>来装评论数据？</p>
+<figure data-type="image" tabindex="4"><img src="http://l80cmk.coding-pages.com/post-images/1587469057795.png" alt="" loading="lazy"></figure>
+<p>然后打开Gridea 点远程—---评论配置，填上刚刚的，然后点保存，预览，同步</p>
+<figure data-type="image" tabindex="5"><img src="http://l80cmk.coding-pages.com/post-images/1587469063318.png" alt="" loading="lazy"></figure>
+<p>完成</p>
+<p>可能有issue没有初始化，在github<br>
+issue那里建个issue模板就行(或者点下登录？？很是莫名)，至少我是这样，还有些奇奇怪怪的问题，我重新再来一遍似乎又没有问题了。。</p>
+<figure data-type="image" tabindex="6"><img src="http://l80cmk.coding-pages.com/post-images/1587469069415.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="http://l80cmk.coding-pages.com/post-images/1587469075044.png" alt="" loading="lazy"></figure>
+<p>参考：</p>
+<p><a href="https://www.jianshu.com/p/4242bb065550">https://www.jianshu.com/p/4242bb065550</a></p>
+<p><a href="https://blog.blinkstar.cn/post/gittalk/">https://blog.blinkstar.cn/post/gittalk/</a></p>
 
             </div>
             
               <div class="tag-container">
                 
-                  <a href="http://l80cmk.coding-pages.com/tag/M2FNItPhR/" class="tag">
-                    安卓逆向
+                  <a href="http://l80cmk.coding-pages.com/tag/BuildBlog/" class="tag">
+                    博客
                   </a>
                 
               </div>
@@ -151,9 +150,9 @@
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="http://l80cmk.coding-pages.com/post/hello-gridea/">
+                <a href="http://l80cmk.coding-pages.com/post/word-zhuan-md/">
                   <h3 class="post-title">
-                    Hello Gridea
+                    Word转MD
                   </h3>
                 </a>
               </div>

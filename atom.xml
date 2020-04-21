@@ -1,26 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://swordgrass.github.io</id>
+    <id>http://l80cmk.coding-pages.com</id>
     <title>个人博客</title>
-    <updated>2020-04-21T10:09:32.146Z</updated>
+    <updated>2020-04-21T12:42:35.964Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://swordgrass.github.io"/>
-    <link rel="self" href="https://swordgrass.github.io/atom.xml"/>
+    <link rel="alternate" href="http://l80cmk.coding-pages.com"/>
+    <link rel="self" href="http://l80cmk.coding-pages.com/atom.xml"/>
     <subtitle>业精于勤，荒于嬉</subtitle>
-    <logo>https://swordgrass.github.io/images/avatar.png</logo>
-    <icon>https://swordgrass.github.io/favicon.ico</icon>
+    <logo>http://l80cmk.coding-pages.com/images/avatar.png</logo>
+    <icon>http://l80cmk.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 个人博客</rights>
     <entry>
+        <title type="html"><![CDATA[VSCode C配置]]></title>
+        <id>http://l80cmk.coding-pages.com/post/vscode-c-pei-zhi/</id>
+        <link href="http://l80cmk.coding-pages.com/post/vscode-c-pei-zhi/">
+        </link>
+        <updated>2020-04-21T12:27:06.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[给扫描版pdf添加目录标签]]></title>
+        <id>http://l80cmk.coding-pages.com/post/gei-sao-miao-ban-pdf-tian-jia-mu-lu-biao-qian/</id>
+        <link href="http://l80cmk.coding-pages.com/post/gei-sao-miao-ban-pdf-tian-jia-mu-lu-biao-qian/">
+        </link>
+        <updated>2020-04-21T12:18:44.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Genymotion安装]]></title>
+        <id>http://l80cmk.coding-pages.com/post/genymotion-an-zhuang/</id>
+        <link href="http://l80cmk.coding-pages.com/post/genymotion-an-zhuang/">
+        </link>
+        <updated>2020-04-21T12:14:33.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C Soket笔记]]></title>
+        <id>http://l80cmk.coding-pages.com/post/c-soket-bi-ji/</id>
+        <link href="http://l80cmk.coding-pages.com/post/c-soket-bi-ji/">
+        </link>
+        <updated>2020-04-21T11:53:32.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VS2019 下配置 OpenCV4.2.0]]></title>
+        <id>http://l80cmk.coding-pages.com/post/vs2019-xia-pei-zhi-opencv420/</id>
+        <link href="http://l80cmk.coding-pages.com/post/vs2019-xia-pei-zhi-opencv420/">
+        </link>
+        <updated>2020-04-21T11:48:48.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea+Gitalk评论功能]]></title>
+        <id>http://l80cmk.coding-pages.com/post/grideagitalk-ping-lun-gong-neng/</id>
+        <link href="http://l80cmk.coding-pages.com/post/grideagitalk-ping-lun-gong-neng/">
+        </link>
+        <updated>2020-04-21T11:36:10.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Word转MD]]></title>
-        <id>https://swordgrass.github.io/post/word-zhuan-md/</id>
-        <link href="https://swordgrass.github.io/post/word-zhuan-md/">
+        <id>http://l80cmk.coding-pages.com/post/word-zhuan-md/</id>
+        <link href="http://l80cmk.coding-pages.com/post/word-zhuan-md/">
         </link>
         <updated>2020-04-21T07:57:01.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[安卓逆向学习笔记-学习计算管家3.4破解]]></title>
-        <id>https://swordgrass.github.io/post/an-zhuo-ni-xiang-bi-ji-ji-suan-guan-jia-34-po-jie-bi-ji/</id>
-        <link href="https://swordgrass.github.io/post/an-zhuo-ni-xiang-bi-ji-ji-suan-guan-jia-34-po-jie-bi-ji/">
+        <id>http://l80cmk.coding-pages.com/post/an-zhuo-ni-xiang-bi-ji-ji-suan-guan-jia-34-po-jie-bi-ji/</id>
+        <link href="http://l80cmk.coding-pages.com/post/an-zhuo-ni-xiang-bi-ji-ji-suan-guan-jia-34-po-jie-bi-ji/">
         </link>
         <updated>2020-04-21T07:29:13.000Z</updated>
         <summary type="html"><![CDATA[<p>跟大佬学习一下，<a href="https://www.52pojie.cn/thread-397987-1-1.html">吾爱破解安卓逆向入门教程（五）---Smali实战分析</a></p>
@@ -30,8 +72,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://swordgrass.github.io/post/hello-gridea/</id>
-        <link href="https://swordgrass.github.io/post/hello-gridea/">
+        <id>http://l80cmk.coding-pages.com/post/hello-gridea/</id>
+        <link href="http://l80cmk.coding-pages.com/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
