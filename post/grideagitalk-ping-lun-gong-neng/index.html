@@ -1,14 +1,19 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>Gridea+Gitalk评论功能 | 个人博客</title>
+<meta name="description" content="业精于勤，荒于嬉">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://swordgrass.github.io/favicon.ico?v=1587548899866">
+<link rel="shortcut icon" href="http://swordgrass.github.io/favicon.ico?v=1587549100125">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://swordgrass.github.io/styles/main.css">
 
 
@@ -19,103 +24,85 @@
   
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="gitalk 它是一个基于 Github Issue 和 Preact
-开发的评论插件
-
-Gitalk中文使用说明
-需要 GitHub Application，如果没有
-点击这里申请
-
-
-这两个记下来
-然后创建一个仓库来装评论数据？
-
-然后..." />
-    <meta name="keywords" content="博客" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://swordgrass.github.io">
-        <img src="http://swordgrass.github.io/images/avatar.png?v=1587548899866" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://swordgrass.github.io">
+        <img class="avatar" src="http://swordgrass.github.io/images/avatar.png?v=1587549100125" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://swordgrass.github.io">
         <h1 class="site-title">个人博客</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/swordgrass" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      业精于勤，荒于嬉
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/swordgrass" target="_blank">SwordGrass</a> | <a class="rss" href="http://swordgrass.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">Gridea+Gitalk评论功能</h2>
-            <div class="post-date">2020-04-21</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">Gridea+Gitalk评论功能</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-04-21</span>
             
-            <div class="post-content" v-pre>
-              <p><a href="https://gitalk.github.io/">gitalk</a> 它是一个基于 Github Issue 和 Preact<br>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="http://swordgrass.github.io/tag/BuildBlog/">
+                    博客
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p><a href="https://gitalk.github.io/">gitalk</a> 它是一个基于 Github Issue 和 Preact<br>
 开发的评论插件</p>
 <figure data-type="image" tabindex="1"><img src="http://swordgrass.github.io/post-images/1587469033731.png" alt="" loading="lazy"></figure>
 <p><a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk中文使用说明</a></p>
@@ -137,45 +124,51 @@ issue那里建个issue模板就行(或者点下登录？？很是莫名)，至�
 <p><a href="https://www.jianshu.com/p/4242bb065550">https://www.jianshu.com/p/4242bb065550</a></p>
 <p><a href="https://blog.blinkstar.cn/post/gittalk/">https://blog.blinkstar.cn/post/gittalk/</a></p>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://swordgrass.github.io/tag/BuildBlog/" class="tag">
-                    博客
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="http://swordgrass.github.io/post/word-zhuan-md/">
-                  <h3 class="post-title">
-                    Word转MD
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="http://swordgrass.github.io/post/word-zhuan-md/">
+              <h3 class="post-title">
+                下一篇：Word转MD
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">业精于勤，荒于嬉</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/swordgrass" target="_blank">SwordGrass</a> | <a class="rss" href="http://swordgrass.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -185,8 +178,6 @@ var app = new Vue({
 })
 
 </script>
-
-
 
 
 
