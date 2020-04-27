@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://swordgrass.github.io</id>
-    <title>个人博客</title>
-    <updated>2020-04-23T04:34:07.816Z</updated>
+    <title>SwordGrass</title>
+    <updated>2020-04-27T07:09:12.253Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://swordgrass.github.io"/>
     <link rel="self" href="http://swordgrass.github.io/atom.xml"/>
     <subtitle>业精于勤，荒于嬉</subtitle>
     <logo>http://swordgrass.github.io/images/avatar.png</logo>
     <icon>http://swordgrass.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 个人博客</rights>
+    <rights>All rights reserved 2020, SwordGrass</rights>
     <entry>
         <title type="html"><![CDATA[github无法实时更新]]></title>
         <id>http://swordgrass.github.io/post/github-wu-fa-shi-shi-geng-xin/</id>
@@ -68,8 +68,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[安卓逆向学习笔记-学习计算管家3.4破解]]></title>
-        <id>http://swordgrass.github.io/post/an-zhuo-ni-xiang-bi-ji-ji-suan-guan-jia-34-po-jie-bi-ji/</id>
-        <link href="http://swordgrass.github.io/post/an-zhuo-ni-xiang-bi-ji-ji-suan-guan-jia-34-po-jie-bi-ji/">
+        <id>http://swordgrass.github.io/post/2020-04-21-an-zhuo/</id>
+        <link href="http://swordgrass.github.io/post/2020-04-21-an-zhuo/">
         </link>
         <updated>2020-04-21T07:29:13.000Z</updated>
         <summary type="html"><![CDATA[<p>跟大佬学习一下，<a href="https://www.52pojie.cn/thread-397987-1-1.html">吾爱破解安卓逆向入门教程（五）---Smali实战分析</a></p>
