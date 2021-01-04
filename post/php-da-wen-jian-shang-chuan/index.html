@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>杂 | SwordGrass</title>
+<title>php 大文件上传 | SwordGrass</title>
 <meta name="description" content="业精于勤，荒于嬉">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://swordgrass.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://swordgrass.github.io">SwordGrass</a></h3>
@@ -79,40 +86,49 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="current-tag">标签: 杂</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://swordgrass.github.io/post/gei-sao-miao-ban-pdf-tian-jia-mu-lu-biao-qian/">给扫描版pdf添加目录标签</a>
-    </h2>
-    <p class="article-meta">
-      2020-04-21
-      
-        <a href="https://swordgrass.github.io/tag/za/" class="badge success">
-          杂
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://swordgrass.github.io/post/gei-sao-miao-ban-pdf-tian-jia-mu-lu-biao-qian/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
+          <article class="article">
+            <h1>php 大文件上传</h1>
+            <p class="article-meta">
+              2020-05-27
+              
+                <a href="https://swordgrass.github.io/tag/php/" class="badge secondary">
+                  PHP
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
+              <p>1.修改php.ini<br>
+2.程序设计超大文件分片上传</p>
 
-
+            </div>
+          </article>
         </div>
-        <div class="row flex-edges">
-  
-  
-</div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://swordgrass.github.io/post/ftp-zhu-dong-mo-shi-yu-bei-dong-mo-shi/">
+                <h3 class="post-title">
+                  FTP主动模式与被动模式
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
 
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://swordgrass.github.io/images/avatar.png?v=1609729797472" class="no-responsive avatar">
@@ -219,31 +235,31 @@
           PHP
         </a>
       
-        <a href="https://swordgrass.github.io/tag/ftp/" class="badge success">
+        <a href="https://swordgrass.github.io/tag/ftp/" class="badge secondary">
           FTP
         </a>
       
-        <a href="https://swordgrass.github.io/tag/vscode/" class="badge ">
+        <a href="https://swordgrass.github.io/tag/vscode/" class="badge secondary">
           VSCode
         </a>
       
-        <a href="https://swordgrass.github.io/tag/za/" class="badge warning">
+        <a href="https://swordgrass.github.io/tag/za/" class="badge ">
           杂
         </a>
       
-        <a href="https://swordgrass.github.io/tag/an-zhuo-kai-fa-gong-ju/" class="badge success">
+        <a href="https://swordgrass.github.io/tag/an-zhuo-kai-fa-gong-ju/" class="badge ">
           安卓开发工具
         </a>
       
-        <a href="https://swordgrass.github.io/tag/c_c/" class="badge ">
+        <a href="https://swordgrass.github.io/tag/c_c/" class="badge warning">
           C_C++
         </a>
       
-        <a href="https://swordgrass.github.io/tag/vs2019/" class="badge secondary">
+        <a href="https://swordgrass.github.io/tag/vs2019/" class="badge ">
           VS2019
         </a>
       
-        <a href="https://swordgrass.github.io/tag/opencv/" class="badge ">
+        <a href="https://swordgrass.github.io/tag/opencv/" class="badge secondary">
           Opencv
         </a>
       
@@ -255,11 +271,11 @@
           工具
         </a>
       
-        <a href="https://swordgrass.github.io/tag/M2FNItPhR/" class="badge ">
+        <a href="https://swordgrass.github.io/tag/M2FNItPhR/" class="badge success">
           安卓逆向
         </a>
       
-        <a href="https://swordgrass.github.io/tag/lxvPjkTbU/" class="badge warning">
+        <a href="https://swordgrass.github.io/tag/lxvPjkTbU/" class="badge ">
           Gridea
         </a>
       
@@ -269,6 +285,7 @@
     Powered by <a href="https://github.com/swordgrass" target="_blank">SwordGrass</a> | <a class="rss" href="https://swordgrass.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
+
 
     </div>
 
@@ -281,6 +298,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '6dd4ce92f755a923e21e',
+        clientSecret: 'fff111f982bcaa745f7c19807290725d67adcae3',
+        repo: 'blogtalk',
+        owner: 'swordgrass',
+        admin: ['swordgrass'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
